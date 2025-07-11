@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+.promo-section {
+  position: relative;        
+  padding: 80px 40px 80px 40px;
+}
+
+.promo-banner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.promo-text::before {
+  content: "";
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(218, 20, 102, 0.9) -15%,
+    rgba(18,18,18,255) 22%
+  );
+  z-index: -1;
+}
+
+.promo-text h1 {
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+.promo-button {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+    margin-top: 20px;
+  padding: 12px 24px;
+  background-color: rgba(218, 20, 102, 0.9);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.promo-button1 {
+  position: relative;
+  display: inline-block;
+    margin-top: 20px;
+  padding: 12px 24px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+.promo-text p {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.terminos {
+  margin-top: 10px;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.terminos p1 {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1059px) {
+  .promo-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .promo-banner {
+   display: none;
+  }
+  .promo-section {
+    background-image: url("https://wwwmarketing.scdn.co/static/images/premium/mobile-album-evergreen-1x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+.promo-text::before {
+  content: "";
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(218, 20, 102, 0.9) -15%,
+    rgba(18,18,18,255) 70%
+  );
+  z-index: -1;
+  
+}
+.promo-text h1 {
+  font-size: 28px;
+  margin-top: 290px;;
+}
+}
