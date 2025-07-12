@@ -1,0 +1,308 @@
+
+/**/
+/**/
+/**/
+/**/
+/*Cuadro numero 1*/
+/**/
+/**/
+/**/
+/**/
+
+.plan-card1 {
+  background-color: #1c1c1c;
+  border-radius: 16px;
+  padding: 24px;
+  width: 280px;
+  color: white;
+  text-align: left;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+img.premium-chiquito2 {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.plan-header {
+  display: flex;
+  align-items: center; 
+  justify-content: left;
+  margin-bottom: 16px;
+}
+
+.plan-card1 h1 {
+  font-size: 24px;
+  color: #ff69b4;
+  margin-bottom: 8px;
+}
+
+.plan-card1 .price {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 0;        
+  margin-left: 0;      
+  list-style-position: inside;
+  text-align: left;
+}
+
+.plan-card1 button {
+  margin-top: 89px;
+  background-color: #ff69b4;
+  color: #1c1c1c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+
+.plan-card1 .terms {
+  text-align: center;
+  font-size: 12px;
+  color: #aaaaaa;
+  margin-top: 18px;
+  line-height: 1.4;
+}
+
+/**/
+/**/
+/**/
+/**/
+/*Cuadro numero 2*/
+/**/
+/**/
+/**/
+/**/
+
+.plan-card2 {
+  background-color: #1c1c1c;
+  border-radius: 16px;
+  padding: 24px;
+  width: 280px;
+  color: white;
+  text-align: left;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+img.premium-chiquito2 {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.plan-header {
+  display: flex;
+  align-items: center; 
+  justify-content: left;
+  margin-bottom: 16px;
+}
+
+.plan-card2 h1 {
+  font-size: 24px;
+  color: #6bc768;
+  margin-bottom: 8px;
+}
+
+.plan-card2 .price {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 0;        
+  margin-left: 0;      
+  list-style-position: inside;
+  text-align: left;
+}
+
+.plan-card2 button {
+  margin-top: 49px;
+  background-color: #6bc768;
+  color: #1c1c1c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.plan-card2 .terms {
+  text-align: center;
+  font-size: 12px;
+  color: #aaaaaa;
+  margin-top: 18px;
+  line-height: 1.4;
+}
+
+/**/
+/**/
+/**/
+/**/
+/* Cuadro numero 3 */
+/**/
+/**/
+/**/
+/**/
+
+.plan-card3 {
+  background-color: #1c1c1c;
+  border-radius: 16px;
+  padding: 24px;
+  width: 280px;
+  color: white;
+  text-align: left;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+img.premium-chiquito2 {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.plan-header {
+  display: flex;
+  align-items: center; 
+  justify-content: left;
+  margin-bottom: 16px;
+}
+
+.plan-card3 h1 {
+  font-size: 24px;
+  color: #a79f36;
+  margin-bottom: 8px;
+}
+
+.plan-card3 .price {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 0;        
+  margin-left: 0;      
+  list-style-position: inside;
+  text-align: left;
+}
+
+.plan-card3 button {
+  margin-top: 79px;
+  background-color: #a79f36;
+  color: #1c1c1c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.plan-card3 .terms {
+  text-align: center;
+  font-size: 12px;
+  color: #aaaaaa;
+  margin-top: 18px;
+  line-height: 1.4;
+}
+
+/**/
+/**/
+/**/
+/**/
+/* Cuadro numero 4 */
+/**/
+/**/
+/**/
+/**/
+
+.plan-card4 {
+  background-color: #1c1c1c;
+  border-radius: 16px;
+  padding: 24px;
+  width: 280px;
+  color: white;
+  text-align: left;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+img.premium-chiquito2 {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.plan-header {
+  display: flex;
+  align-items: center; 
+  justify-content: left;
+  margin-bottom: 16px;
+}
+
+.plan-card4 h1 {
+  font-size: 24px;
+  color: #1478d6;
+  margin-bottom: 8px;
+}
+
+.plan-card4 .price {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 0;        
+  margin-left: 0;      
+  list-style-position: inside;
+  text-align: left;
+}
+
+.plan-card4 button {
+  background-color: #1478d6;
+  color: #1c1c1c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.plan-card4 .terms {
+  text-align: center;
+  font-size: 12px;
+  color: #aaaaaa;
+  margin-top: 18px;
+  line-height: 1.4;
+}
+
+
+/**/
+/**/
+/**/
+/**/
+/* General */
+/**/
+/**/
+/**/
+/**/
+
+
+.planes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
