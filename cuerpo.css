@@ -31,19 +31,19 @@
 }
 
 .content {
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 32%;
+    margin-right: 32%;
 }
 
 .content h1{
 text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 
 .content p {
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
@@ -57,7 +57,7 @@ img.premium-chiquito {
     margin-top: 30px;
     display: block;
     margin: 20px auto;
-    width: 30%;
+    width: 400px;
     height: auto;
 }
 
@@ -67,20 +67,25 @@ img.premium-chiquito {
   justify-content: center;
   align-items: center;
   padding: 40px;
+  font-size: 24px;
 }
+
+
 .card {
-  width: 300px;
+  width: 800px;
   padding: 20px;
   border-radius: 12px;
   font-family: 'Segoe UI', sans-serif;
-  transition: transform 0.3s ease;
+}
+ 
+td.text {
+ font-size: 30px;
+ text-decoration: underline dotted;
 }
 
-.card:hover {
-  transform: scale(1.05);
+thead th {
+ font-size: 30px;
 }
-
-
 @media screen and (max-width: 1060px) {
     .content {
         margin-left: 10%;

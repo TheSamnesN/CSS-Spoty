@@ -24,6 +24,7 @@ img.premium-chiquito2 {
   height: 30px;
   vertical-align: middle;
   margin-right: 5px;
+  margin-top: 13px;
 }
 .plan-header {
   display: flex;
@@ -39,7 +40,7 @@ img.premium-chiquito2 {
 }
 
 .plan-card1 .price {
-  font-size: 18px;
+  font-size: 24px;
   margin: 10px 0;
 }
 
@@ -55,12 +56,13 @@ ul {
   background-color: #ff69b4;
   color: #1c1c1c;
   border: none;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 999px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: 100%;
+  font-size: 22px;
 }
 
 
@@ -92,12 +94,6 @@ ul {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
-img.premium-chiquito2 {
-  width: 30px;
-  height: 30px;
-  vertical-align: middle;
-  margin-right: 5px;
-}
 .plan-header {
   display: flex;
   align-items: center; 
@@ -112,7 +108,7 @@ img.premium-chiquito2 {
 }
 
 .plan-card2 .price {
-  font-size: 18px;
+  font-size: 24px;
   margin: 10px 0;
 }
 
@@ -128,12 +124,13 @@ ul {
   background-color: #6bc768;
   color: #1c1c1c;
   border: none;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 999px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: 100%;
+    font-size: 22px;
 }
 
 .plan-card2 .terms {
@@ -164,12 +161,6 @@ ul {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
-img.premium-chiquito2 {
-  width: 30px;
-  height: 30px;
-  vertical-align: middle;
-  margin-right: 5px;
-}
 .plan-header {
   display: flex;
   align-items: center; 
@@ -184,7 +175,7 @@ img.premium-chiquito2 {
 }
 
 .plan-card3 .price {
-  font-size: 18px;
+  font-size: 24px;
   margin: 10px 0;
 }
 
@@ -200,12 +191,13 @@ ul {
   background-color: #a79f36;
   color: #1c1c1c;
   border: none;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 999px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: 100%;
+    font-size: 22px;
 }
 
 .plan-card3 .terms {
@@ -236,12 +228,6 @@ ul {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
-img.premium-chiquito2 {
-  width: 30px;
-  height: 30px;
-  vertical-align: middle;
-  margin-right: 5px;
-}
 .plan-header {
   display: flex;
   align-items: center; 
@@ -256,7 +242,7 @@ img.premium-chiquito2 {
 }
 
 .plan-card4 .price {
-  font-size: 18px;
+  font-size: 24px;
   margin: 10px 0;
 }
 
@@ -271,12 +257,13 @@ ul {
   background-color: #1478d6;
   color: #1c1c1c;
   border: none;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 999px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: 100%;
+    font-size: 22px;
 }
 
 .plan-card4 .terms {
@@ -305,4 +292,16 @@ ul {
   gap: 20px;
   flex-wrap: wrap;
   margin-top: 40px;
+}
+
+.plan-card1, .plan-card2, .plan-card3, .plan-card4 {
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  font-size: 25px;
+}
+
+.plan-card1 h1, .plan-card2 h1, .plan-card3 h1, .plan-card4 h1 {
+  font-size: 40px;
+  margin-bottom: 8px;
 }
