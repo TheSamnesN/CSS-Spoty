@@ -20,8 +20,8 @@
 }
 
 .footer-column h4 {
-  font-size: 14px;
-  margin-bottom: 12px;
+  font-size: 20px;
+  margin-bottom: 18px;
   color: #999;
 }
 
@@ -32,11 +32,11 @@
 }
 
 .footer-column li {
-  margin-bottom: 8px;
+  margin-bottom: 25px;
 }
 
 .footer-column a {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   text-decoration: none;
 }
@@ -53,9 +53,6 @@
 }
 
 .footer-social img {
-  width: 24px;
-  height: 24px;
-  filter: brightness(0) invert(1);
   cursor: pointer;
 }
 
@@ -86,7 +83,7 @@
   text-decoration: none;
 }
 
-.footer-bottom ul li a:hover {
+.footer-bottom ul li {
   text-decoration: underline;
 }
 

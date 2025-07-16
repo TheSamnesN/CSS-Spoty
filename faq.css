@@ -46,3 +46,39 @@
 .faq-table td:hover {
   color: #1db954;
 }
+
+.faq-table p {
+  font-weight: normal;
+  font-size: 15px;
+  color: #ccc;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  padding-right: 40%;
+}
+
+@media screen and (max-width: 1700px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 10px;
+    margin-top: 200px;
+  }
+
+  .faq-section h2 {
+    font-size: 32px;
+  }
+
+  .faq-subtitle {
+    font-size: 16px;
+  }
+
+  .faq-table td {
+    font-size: 20px;
+  }
+
+  .faq-table p {
+    font-size: 14px;
+    padding-right: 20%;
+  }
+  
+}

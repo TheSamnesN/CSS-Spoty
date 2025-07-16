@@ -294,13 +294,6 @@ ul {
   margin-top: 40px;
 }
 
-.plan-card1, .plan-card2, .plan-card3, .plan-card4 {
-  flex: 1;
-  min-width: 280px;
-  max-width: 400px;
-  font-size: 25px;
-}
-
 .plan-card1 h1, .plan-card2 h1, .plan-card3 h1, .plan-card4 h1 {
   font-size: 40px;
   margin-bottom: 8px;
